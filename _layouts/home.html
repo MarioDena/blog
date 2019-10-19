@@ -18,12 +18,20 @@
         <p>Tools, snipets and general treats for web development fun.</p>
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>Fullstack Web-Developer, React, BEM, Ruby, SASS lover.<br> Student <a target="_blank" href="https://www.microverse.org/">@Microverse</a></p>
+        <div class="card">
+          <div class="logoContainer">
+              <img class="logo" src="{{site.logo | relative_url}}" alt="Logo" />
+          </div>
+          
+          
         
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        </div>
+        <div class="card__text">
+            <p>Fullstack Web-Developer, React, BEM, Ruby, SASS lover.<br> Student <a target="_blank" href="https://www.microverse.org/">@Microverse</a></p>
+        </div>
+          
+        {% endif %}
+       
       </header>
       <section>
 

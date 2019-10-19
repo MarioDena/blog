@@ -3,11 +3,46 @@
 
 @import "{{ site.theme }}";
 
-.test{
-    width: 100%;
-    text-align: right;
+.test {
+  width: 100%;
+  text-align: right;
 }
 
-a:hover{
-    font-weight: inherit;
+a:hover {
+  font-weight: inherit;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  &__text {
+    height: 100%;
+    display: flex;
+    & > p{
+        padding: 0;
+        margin: 0;
+    }
+  }
+}
+
+.logoContainer {
+  height: 100%;
+  display: flex;
+  
+}
+
+.logo {
+  max-height: 90px;
+  margin-right: 5px;
+  clip-path: circle(50% at 50% 50%);
+}
+
+@media print, screen and (max-width: 960px) {
+    .card{
+        justify-content: left;
+        align-items: flex-start;
+    }
 }
