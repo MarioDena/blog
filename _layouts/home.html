@@ -15,23 +15,20 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <p>Tools, snipets and general treats for web development fun.</p>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>Fullstack Web-Developer, Student <a href="">@Microverse</a></p>
+        <p>Fullstack Web-Developer, React, BEM, Ruby, SASS lover.<br> Student <a target="_blank" href="https://www.microverse.org/">@Microverse</a></p>
         
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        
-
-       
-
       </header>
       <section>
 
         {%- if site.posts.size > 0 -%}
-        <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+        <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
         <ul2 class="post-list">
           {%- for post in site.posts -%}
           <li2>
@@ -44,9 +41,10 @@
             </h3>
             
               {{ post.excerpt }} 
-              <a href="{{ post.url | relative_url }}">READ MORE...</a>  
+              <div class="test"><a href="{{ post.url | relative_url }}">READ MORE...</a></div>  
               <br>
               <br>
+              <hr>
             
           </li2>
           {%- endfor -%}
@@ -54,6 +52,12 @@
       {%- endif -%}
 
       </section>
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}

@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.test{
+    width: 100%;
+    text-align: right;
+}
+
+a:hover{
+    font-weight: inherit;
+}
