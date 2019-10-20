@@ -3,6 +3,40 @@
 
 @import "{{ site.theme }}";
 
+.wrapper{
+  width: 880px;
+}
+
+.title{
+  text-align: center;
+}
+
+.subTitle{
+  margin-top: -15px;
+  
+  text-align: center;
+}
+
+section{
+  width: 530px;
+}
+
+body{
+  padding: 30px;  
+}
+
+header{
+  padding: 20px;
+  padding-top: 40px;
+background-color: rgb(240, 240, 240);
+height: 100vh;
+margin-top: -40px;
+}
+
+footer{
+  display: none;
+}
+
 .test {
   width: 100%;
   text-align: right;
@@ -21,6 +55,8 @@ a:hover {
   &__text {
     height: 100%;
     display: flex;
+    text-align: center;
+    
     & > p{
         padding: 0;
         margin: 0;
@@ -31,12 +67,12 @@ a:hover {
 .logoContainer {
   height: 100%;
   display: flex;
-  
+  margin: 10px;
 }
 
 .logo {
   max-height: 90px;
-  margin-right: 5px;
+  //margin-right: 5px;
   clip-path: circle(50% at 50% 50%);
 }
 
