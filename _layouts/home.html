@@ -39,9 +39,17 @@
       <section>
         <div class="navBar">
           <ul>
+            <li class="categoHov">Categories &#9662;
+              <ul>
+                <li class="menuItem" id=""><a href=""> JavaScript</a></li>
+                <li class="menuItem" id=""><a href=""> CSS</a></li>
+                <li class="menuItem" id=""><a href=""> React</a></li>
+                <li class="menuItem" id=""><a href=""> Coding Challenges</a></li>
+                <li class="menuItem" id=""><a href=""> Tools</a></li>
+              </ul>
+            </li>
             <li><a href="">My portfolio</a></li>
-            <li><a href="">Categories</a></li>
-            <li><a href=""><img src="/blog/assets/css/socialIcons/homeBlue.png" alt="home"></a></li>
+            <li class="homeIconNav"><a href="{{ "/" | absolute_url }}"><img src="/blog/assets/css/socialIcons/homeBlue.png" alt="home"></a></li>
           </ul>
         </div>
         {%- if site.posts.size > 0 -%}

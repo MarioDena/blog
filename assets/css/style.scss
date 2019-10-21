@@ -3,6 +3,69 @@
 
 @import "{{ site.theme }}";
 
+.view{
+  margin-top: -10px;
+  //font-size: 13px;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+pre{
+  //width: 500px;
+  margin-left: 0;
+  padding: 8px 8px;
+}
+
+figure{
+  margin-right: 2px;
+  margin-left: 0;
+}
+
+.homeIconNav{
+  margin-left: auto;
+}
+
+.categoHov{
+  @extend a;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+
+  & ul{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    left: -5px;
+    &:first-child{
+      padding-top: 10px;
+    }
+  }
+
+  & .menuItem{
+    box-sizing: border-box;
+    display: none;
+    list-style: none;
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    //padding-right: 30px;
+    width: 150px;
+    border-bottom: 1px solid lightgray;
+  }
+
+  &:hover .menuItem{
+    display: block;
+    list-style: none;
+  }  
+}
+
+#toggleMenu{
+  display: block;
+  list-style: none;
+}
+
 .socialIcons{
   margin-top: 40px;
   z-index: 4;
@@ -68,10 +131,10 @@
   position: fixed;
   margin-top: -40px;
   margin-left: -40px;
-  justify-content: flex-end;
 
   & > ul{
     display: flex;
+    width: 100%;
     & > li{
       padding-top: 10px;
       margin-right: 20px;
@@ -109,6 +172,10 @@ padding-top: 40px;
 background-color: rgb(240, 240, 240);
 height: 100vh;
 margin-top: -40px;
+}
+
+postheader{
+  @extend header;
 }
 
 footer{
@@ -160,12 +227,16 @@ a:hover {
 }
 
 @media print, screen and (max-width: 960px) {
+  
+    .categoHov{
+      margin-left: -20px;
+    }
    
     .navBar{
       width: 101vw;
       z-index: 5;
-      position: fixed;
-      top: 40px;
+      position: sticky;
+      top: 0px;
     }
     .wrapper{
       width: 100%;
@@ -175,6 +246,10 @@ a:hover {
       height: 320px;
       margin-left: -40px;
       margin-right: -40px;
+    }
+
+    postheader{
+      display: none;
     }
 
     section{
@@ -192,5 +267,9 @@ a:hover {
 @media print, screen and (max-width: 340px) {
   header{
     height: 350px;
+  }
+
+  postheader{
+    display: none;
   }
 }

@@ -7,7 +7,7 @@ collections:
     output: true
 email: your-email@example.com
 author: Mario Dena
-description: Fullstack Web-developer Blog
+description: A Web-Developer's Blog
 baseurl: '/blog'
 url: ''
 theme: jekyll-theme-minimal

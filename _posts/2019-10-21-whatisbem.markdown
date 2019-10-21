@@ -1,10 +1,11 @@
 ---
-title: Welcome to Jekyll!
-date: 2019-10-18 19:57:38 Z
-categories:
-- CSS
-layout: home
-tags: css
+title: What is BEM?!
+subtitle: And why you should start using it!
+date: 2019-10-21
+category: CSS
+layout: post
+tags: CSS Tools HTML BEM
+permalink: "/css/what-is-bem"
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -17,12 +18,12 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
+{% highlight js %}
 def print_hi(name)
   puts "Hi, #{name}"
 end
 print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+#=> prints 'Hi, Tom' to STDOUT.d sdvsf sf fsbw wf
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
