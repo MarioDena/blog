@@ -3,6 +3,65 @@
 
 @import "{{ site.theme }}";
 
+.socialIcons{
+  margin-top: 40px;
+  z-index: 4;
+  //padding: 0 10px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIconImg{
+  display: block;
+  width: 38px;
+  height: 38px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin: 10px;
+}
+
+.socialTwitter{
+  @extend .socialIconImg;
+  background-image: url(./socialIcons/Tgrey.png);
+
+  &:hover{
+    background-image: url(./socialIcons/Tblue.png);
+  }
+}
+
+.socialYoutube{
+  @extend .socialIconImg;
+  background-image: url(./socialIcons/Ygrey.png);
+  
+  &:hover{
+    background-image: url(./socialIcons/Yred.png);
+  }
+}
+
+.socialLinked{
+  @extend .socialIconImg;
+  background-image: url(./socialIcons/Lgrey.png);
+  
+  &:hover{
+    background-image: url(./socialIcons/Lblue.png);
+  }
+}
+
+.socialGithub{
+  @extend .socialIconImg;
+  background-image: url(./socialIcons/Ggrey.png);
+  
+  &:hover{
+    background-image: url(./socialIcons/Gblack.png);
+  }
+}
+
+
+
 .wrapper{
   width: 880px;
 }
@@ -26,15 +85,17 @@ body{
 }
 
 header{
-  padding: 20px;
-  padding-top: 40px;
+padding: 20px;
+padding-top: 40px;
 background-color: rgb(240, 240, 240);
 height: 100vh;
 margin-top: -40px;
 }
 
 footer{
-  display: none;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: -60px;
 }
 
 .test {
@@ -55,6 +116,7 @@ a:hover {
   &__text {
     height: 100%;
     display: flex;
+    flex-direction: column;
     text-align: center;
     
     & > p{
@@ -68,17 +130,42 @@ a:hover {
   height: 100%;
   display: flex;
   margin: 10px;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 3px solid white;
 }
 
 .logo {
-  max-height: 90px;
-  //margin-right: 5px;
+  max-height: 80px;
   clip-path: circle(50% at 50% 50%);
 }
 
 @media print, screen and (max-width: 960px) {
-    .card{
-        justify-content: left;
-        align-items: flex-start;
+   
+    .wrapper{
+      width: 100%;
     }
+
+    header{
+      height: 320px;
+      margin-left: -40px;
+      margin-right: -40px;
+    }
+
+    section{
+      width: 100%;
+      border: none;
+    }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap:break-word;
+  }
+}
+
+@media print, screen and (max-width: 340px) {
+  header{
+    height: 350px;
+  }
 }

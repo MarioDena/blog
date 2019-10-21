@@ -212,6 +212,22 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
   header ul { width: 99%; }
   header li, header ul li + li + li { width: 33%; } }
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
+.socialIcons { margin-top: 40px; z-index: 4; width: 100%; height: 40px; display: flex; align-items: center; justify-content: center; }
+
+.socialIconImg, .socialTwitter, .socialYoutube, .socialLinked, .socialGithub { display: block; width: 38px; height: 38px; background-size: 100%; background-repeat: no-repeat; background-position: left; margin: 10px; }
+
+.socialTwitter { background-image: url(./socialIcons/Tgrey.png); }
+.socialTwitter:hover { background-image: url(./socialIcons/Tblue.png); }
+
+.socialYoutube { background-image: url(./socialIcons/Ygrey.png); }
+.socialYoutube:hover { background-image: url(./socialIcons/Yred.png); }
+
+.socialLinked { background-image: url(./socialIcons/Lgrey.png); }
+.socialLinked:hover { background-image: url(./socialIcons/Lblue.png); }
+
+.socialGithub { background-image: url(./socialIcons/Ggrey.png); }
+.socialGithub:hover { background-image: url(./socialIcons/Gblack.png); }
+
 .wrapper { width: 880px; }
 
 .title { text-align: center; }
@@ -224,18 +240,22 @@ body { padding: 30px; }
 
 header { padding: 20px; padding-top: 40px; background-color: #f0f0f0; height: 100vh; margin-top: -40px; }
 
-footer { display: none; }
+footer { text-align: center; padding: 20px; margin-bottom: -60px; }
 
 .test { width: 100%; text-align: right; }
 
 a:hover { font-weight: inherit; }
 
 .card { display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
-.card__text { height: 100%; display: flex; text-align: center; }
+.card__text { height: 100%; display: flex; flex-direction: column; text-align: center; }
 .card__text > p { padding: 0; margin: 0; }
 
-.logoContainer { height: 100%; display: flex; margin: 10px; }
+.logoContainer { height: 100%; display: flex; margin: 10px; margin-top: 20px; border-radius: 50%; border: 3px solid white; }
 
-.logo { max-height: 90px; clip-path: circle(50% at 50% 50%); }
+.logo { max-height: 80px; clip-path: circle(50% at 50% 50%); }
 
-@media print, screen and (max-width: 960px) { .card { justify-content: left; align-items: flex-start; } }
+@media print, screen and (max-width: 960px) { .wrapper { width: 100%; }
+  header { height: 320px; margin-left: -40px; margin-right: -40px; }
+  section { width: 100%; border: none; } }
+@media print, screen and (max-width: 720px) { body { word-wrap: break-word; } }
+@media print, screen and (max-width: 340px) { header { height: 350px; } }

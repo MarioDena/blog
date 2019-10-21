@@ -13,23 +13,28 @@
     <div class="wrapper">
       <header>
         <h1 class="title"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        <p class="subTitle">Tools, snipets and general treats <br> for web development fun.</p>
-        
-        {% if site.logo %}
+        <p class="subTitle"></p>
         <div class="card">
           <div class="logoContainer">
               <img class="logo" src="{{site.logo | relative_url}}" alt="Logo" />
           </div>
-          
-          
-        
         </div>
         <div class="card__text">
-            <p>Fullstack Web-Developer, React, BEM, Ruby, SASS lover.<br> Student <a target="_blank" href="https://www.microverse.org/">@Microverse</a></p>
+            <p>Fullstack Web-Developer, React, BEM, Ruby, SASS lover. <p>Student <a target="_blank" href="https://www.microverse.org/">@Microverse</a></p></p>
+            
+            <div class="socialIcons">
+              <a href="https://twitter.com/MarioDenaCode" target="_blank"><div class="socialTwitter"></div></a>
+              <a href="https://www.youtube.com/channel/UCgc68AMRICj7iI7gJ6y4OVg" target="_blank"><div class="socialYoutube"></div></a>
+              <a href="https://www.linkedin.com/in/mario-dena/" target="_blank"><div class="socialLinked"></div></a>
+              <a href="https://github.com/MarioDena" target="_blank"><div class="socialGithub"></div></a>
+              
+            </div>
+            <img src="/blog/assets/css/socialIcons/Tblue.png" style="visibility: hidden">
+            <img src="/blog/assets/css/socialIcons/Yred.png" style="visibility: hidden">
+            <img src="/blog/assets/css/socialIcons/Lblue.png" style="visibility: hidden">
+            <img src="/blog/assets/css/socialIcons/Gblack.png" style="visibility: hidden">
         </div>
-          
-        {% endif %}
-       
+        
       </header>
       <section>
 
@@ -59,10 +64,7 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small><a href="https://www.linkedin.com/in/mario-dena/" target="_blank">Mario Dena 2019. </a>Social Icons By <a href="https://www.iconfinder.com/rebininfotech" target="_blank">Rebin Infotech</a>  <br> Theme Based on "Minimal" by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
