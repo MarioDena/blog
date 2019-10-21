@@ -37,8 +37,15 @@
         
       </header>
       <section>
-
+        <div class="navBar">
+          <ul>
+            <li><a href="">My portfolio</a></li>
+            <li><a href="">Categories</a></li>
+            <li><a href=""><img src="/blog/assets/css/socialIcons/homeBlue.png" alt="home"></a></li>
+          </ul>
+        </div>
         {%- if site.posts.size > 0 -%}
+        <br>
         <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
         <ul2 class="post-list">
           {%- for post in site.posts -%}
@@ -52,7 +59,7 @@
             </h3>
             
               {{ post.excerpt }} 
-              <div class="test"><a href="{{ post.url | relative_url }}">READ MORE...</a></div>  
+              <div class="test"><a href="{{ post.url | relative_url }}">READ MORE</a></div>  
               <br>
               <br>
               <hr>

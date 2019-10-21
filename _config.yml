@@ -5,16 +5,11 @@ collections:
   posts:
     title: Posts
     output: true
-  uploads:
-    title: Uploads
-    output: true
 email: your-email@example.com
 author: Mario Dena
-description: Fullstack Web-developer Student 
+description: Fullstack Web-developer Blog
 baseurl: '/blog'
 url: ''
-twitter_username: jekyllrb
-github_username: jekyll
 theme: jekyll-theme-minimal
 logo: Photo.jpeg
 plugins:

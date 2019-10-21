@@ -228,6 +228,10 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 .socialGithub { background-image: url(./socialIcons/Ggrey.png); }
 .socialGithub:hover { background-image: url(./socialIcons/Gblack.png); }
 
+.navBar { display: flex; width: 575px; height: 40px; background-color: #f0f0f0; position: fixed; margin-top: -40px; margin-left: -40px; justify-content: flex-end; }
+.navBar > ul { display: flex; }
+.navBar > ul > li { padding-top: 10px; margin-right: 20px; list-style: none; }
+
 .wrapper { width: 880px; }
 
 .title { text-align: center; }
@@ -236,7 +240,7 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 
 section { width: 530px; }
 
-body { padding: 30px; }
+body { padding: 30px; overflow-x: hidden; }
 
 header { padding: 20px; padding-top: 40px; background-color: #f0f0f0; height: 100vh; margin-top: -40px; }
 
@@ -254,7 +258,8 @@ a:hover { font-weight: inherit; }
 
 .logo { max-height: 80px; clip-path: circle(50% at 50% 50%); }
 
-@media print, screen and (max-width: 960px) { .wrapper { width: 100%; }
+@media print, screen and (max-width: 960px) { .navBar { width: 101vw; z-index: 5; position: fixed; top: 40px; }
+  .wrapper { width: 100%; }
   header { height: 320px; margin-left: -40px; margin-right: -40px; }
   section { width: 100%; border: none; } }
 @media print, screen and (max-width: 720px) { body { word-wrap: break-word; } }
