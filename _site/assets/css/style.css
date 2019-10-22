@@ -212,6 +212,8 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
   header ul, postheader ul { width: 99%; }
   header li, postheader li, header ul li + li + li, postheader ul li + li + li { width: 33%; } }
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
+.subtitlePost { margin-top: -15px; font-style: italic; font-size: 13px; }
+
 .view { margin-top: -10px; margin-bottom: 50px; font-style: italic; }
 
 pre { margin-left: 0; padding: 8px 8px; }

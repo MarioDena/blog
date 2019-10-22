@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
+
+.subtitlePost{
+  margin-top: -15px;
+  font-style: italic;
+  font-size: 13px;
+}
+
 .view{
   margin-top: -10px;
   //font-size: 13px;

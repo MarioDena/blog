@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2019-10-22T18:41:52+00:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Mario Dena Blog</title><subtitle>A Web-Developer's Blog</subtitle><author><name>Mario Dena</name></author><entry><title type="html">TEST!</title><link href="http://localhost:4000/blog/tools/test.html" rel="alternate" type="text/html" title="TEST!" /><published>2019-10-22T00:00:00+00:00</published><updated>2019-10-22T00:00:00+00:00</updated><id>http://localhost:4000/blog/tools/test</id><content type="html" xml:base="http://localhost:4000/blog/tools/test.html">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt; stands for Block-Element-Modifier and it’s basicaly a &lt;a href=&quot;https://en.wikipedia.org/wiki/Naming_convention/&quot;&gt;naming convention&lt;/a&gt;, or set of rules you can use to name your HTML elements &lt;em&gt;(with classes)&lt;/em&gt;, no installation needed no prerequisites, you can simply start using it now.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2019-10-22T20:59:42+00:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Mario Dena Blog</title><subtitle>A Web-Developer's Blog</subtitle><author><name>Mario Dena</name></author><entry><title type="html">What is BEM?!</title><link href="http://localhost:4000/blog/tools/whatisbem.html" rel="alternate" type="text/html" title="What is BEM?!" /><published>2019-10-22T00:00:00+00:00</published><updated>2019-10-22T00:00:00+00:00</updated><id>http://localhost:4000/blog/tools/whatbem</id><content type="html" xml:base="http://localhost:4000/blog/tools/whatisbem.html">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt; stands for &lt;strong&gt;Block-Element-Modifier&lt;/strong&gt; and it’s basically a &lt;a href=&quot;https://en.wikipedia.org/wiki/Naming_convention/&quot;&gt;naming convention&lt;/a&gt; or set of rules you can use to name your &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML elements&lt;/code&gt; &lt;em&gt;(with classes)&lt;/em&gt;. Since it’s not a framework or a piece of software, you can simply start using it now.&lt;/p&gt;
 
 &lt;p&gt;You can watch this video for a quick run-down.&lt;/p&gt;
 
-&lt;p&gt;Simple as it sounds, &lt;strong&gt;it’s a fantastic tool&lt;/strong&gt;. You can use and &lt;em&gt;modify&lt;/em&gt; it to your needs. And if used right, you will get &lt;strong&gt;clean, readable, reusable and easy to maintain&lt;/strong&gt; code. Both for your HTML and your CSS.&lt;/p&gt;
+&lt;p&gt;Simple as it sounds, &lt;strong&gt;it’s a fantastic tool&lt;/strong&gt;. You can use and &lt;em&gt;modify*&lt;/em&gt; it to your needs. And if used right, you will get &lt;strong&gt;clean, readable, reusable and easy to maintain&lt;/strong&gt; code, both for your &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; and your &lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;So, let’s see what &lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt; can do for us.&lt;/strong&gt;&lt;/p&gt;
 
@@ -20,26 +20,24 @@
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;logo&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;We can always try to be specific with our selectors, and style doing something similar to this:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;CSS:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We can always try to be specific with our &lt;a href=&quot;https://www.sitepoint.com/css-selectors/&quot;&gt;selectors&lt;/a&gt;, and style doing something similar to this:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.container&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;However as the files grow bigger &lt;em&gt;(both html and css)&lt;/em&gt; you’ll have to remember what is what the whole time, and that will be a problem in the long run. So, as a student I learnt that we should use classes for styling, &lt;a href=&quot;https://css-tricks.com/almanac/selectors/i/id/&quot;&gt;never use ID’s for styling&lt;/a&gt; and some the general &lt;a href=&quot;https://csswizardry.com/2012/11/code-smells-in-css/&quot;&gt;best paractices&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However as the files grow bigger &lt;em&gt;(both HTML and CSS)&lt;/em&gt; you’ll have to remember what is what the whole time, and &lt;strong&gt;that will be a problem in the long run.&lt;/strong&gt; As a student, I learned we should use classes for styling, &lt;a href=&quot;https://css-tricks.com/almanac/selectors/i/id/&quot;&gt;never use IDs for styling&lt;/a&gt; and some the general &lt;a href=&quot;https://csswizardry.com/2012/11/code-smells-in-css/&quot;&gt;best practices&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;But what name can we give to each element? For example:&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
     ......&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;There &lt;em&gt;seems&lt;/em&gt; to be nothing wrong with the code above, however what if you have more than one &lt;code class=&quot;highlighter-rouge&quot;&gt;menuList&lt;/code&gt; on your website? What if we want &lt;em&gt;them&lt;/em&gt; to look diferent?&lt;/p&gt;
+&lt;p&gt;There &lt;em&gt;seems&lt;/em&gt; to be nothing wrong with the code above, but, what if you have more than one &lt;code class=&quot;highlighter-rouge&quot;&gt;menuList&lt;/code&gt; on your website? What if we want &lt;em&gt;them&lt;/em&gt; to look different?&lt;/p&gt;
 
-&lt;p&gt;Then we have to be more specific, and use less generic but equaly descriptive names. And here is where BEM will help us out.&lt;/p&gt;
+&lt;p&gt;Then we have to be more specific, and use less generic but equally descriptive names. And here is where &lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt; will help us out.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
@@ -56,18 +54,18 @@
   &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;So we name our &lt;code class=&quot;highlighter-rouge&quot;&gt;block&lt;/code&gt; with a descriptive name, and use double underscores for our elements. &lt;code class=&quot;highlighter-rouge&quot;&gt;__element&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;So we name our &lt;code class=&quot;highlighter-rouge&quot;&gt;block&lt;/code&gt; with a descriptive name, and use double underscores for our elements &lt;code class=&quot;highlighter-rouge&quot;&gt;__element&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Now the code is clean and easy to maintain, even if I come back to the code after a month or a year after writing it, I would know just by reading the names what every part of my code represenst.&lt;/p&gt;
+&lt;p&gt;Now the code is clean and easy to maintain, even if I come back to the code a month or a year after writing it, &lt;strong&gt;I would know just by reading the names what every part of my code represents.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Now let’s get into what I love the most about BEM, what about our &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; elements? Well, you might be inclined to do something like this:&lt;/p&gt;
+&lt;p&gt;Now, let’s get into something &lt;em&gt;really&lt;/em&gt; interesting about &lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt;, what about our &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; elements? Well, you might be inclined to do something like this:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList__menuItem&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
     ...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;And while it would work, we have to remember that in BEM the hirarchy is defined by our naming standard and not by our HTML (at least not as much). So we can either leave it as a &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; element, or we could do this:&lt;/p&gt;
+&lt;p&gt;While it would work, we have to remember that in BEM the &lt;a href=&quot;http://webreference.com/html/rendering/index-2.html&quot;&gt;hierarchy&lt;/a&gt; is defined by our naming standard and not by our HTML &lt;em&gt;(at least not as much)&lt;/em&gt;. So we can either leave it as a &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; element, or we could do this:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
@@ -88,9 +86,9 @@
   &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;What I love about this aproach is we can get single name classes for our styling, and we keep everything organized, but as our site grows &lt;em&gt;(or if we want to go crazy with styling)&lt;/em&gt; we will find that we need to be even more specific, and here is where modifiers came in.&lt;/p&gt;
+&lt;p&gt;What I love about this approach is we can get &lt;strong&gt;single class elements&lt;/strong&gt; for styling, while keeping everything organized. However, as our site grows &lt;em&gt;(or if we want to go crazy with styling)&lt;/em&gt; we will find that we need to be even more specific, and here is where modifiers come in handy.&lt;/p&gt;
 
-&lt;p&gt;Let’s say we want only one element in our list to be in italics. There are several ways you can do it, there is the BEM way, doing something like this:&lt;/p&gt;
+&lt;p&gt;Let’s say we want only one element in our list to be in &lt;em&gt;italics&lt;/em&gt;. There are several ways you can do it, there is the &lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt; way, something like this:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
@@ -118,19 +116,19 @@
 
 &lt;p&gt;So now we have our &lt;code class=&quot;highlighter-rouge&quot;&gt;block&lt;/code&gt; our &lt;code class=&quot;highlighter-rouge&quot;&gt;__element&lt;/code&gt; adn following the double dash standard our &lt;code class=&quot;highlighter-rouge&quot;&gt;--modifier&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;What’s so cool about this, and what I love the most, is that we can &lt;em&gt;bend&lt;/em&gt; the rules a little bit. This is enterely a personal preference and a way I &lt;em&gt;(sometimes)&lt;/em&gt; deal with my modifiers.&lt;/p&gt;
+&lt;p&gt;What’s so cool about this, and what I love the most, is that we can &lt;em&gt;bend&lt;/em&gt; the rules a little bit. &lt;strong&gt;This is entirely a personal preference&lt;/strong&gt; and my way to &lt;em&gt;(sometimes)&lt;/em&gt; deal with my modifiers.&lt;/p&gt;
 
-&lt;p&gt;If my modifier is so simple as to just change the font style to italics, I then add it to my css with all my helper classes like this:&lt;/p&gt;
+&lt;p&gt;So, if my modifier is so simple &lt;em&gt;(making changes to the font style)&lt;/em&gt;, I then add it to my CSS along with all my helper classes like this:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.--italics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;italic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
-&lt;span class=&quot;nc&quot;&gt;.--bolded&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.--bold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Now we are not following the BEM standards, but we made our own modification to the rule, &lt;em&gt;(for more complicated styles I do follow BEM)&lt;/em&gt; and our HTML is clean and has great readability.&lt;/p&gt;
+&lt;p&gt;Now we are not following the &lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt; standards, but &lt;strong&gt;we made our own modification to the rule,&lt;/strong&gt; &lt;em&gt;(for more complicated styles I do follow BEM)&lt;/em&gt; and our &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; is clean and has great &lt;a href=&quot;https://en.wikipedia.org/wiki/Readability&quot;&gt;readability&lt;/a&gt;:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
@@ -138,152 +136,10 @@
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuItem --italics&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
     ...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;I just find it amazing that it is so easy to do and the benefits are great, our code is readable, easy to maintain and we have alot of reusable code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I find it amazing that it’s so easy to do and it offers so much.&lt;/strong&gt; Our code is readable, easy to maintain and we have a lot of &lt;a href=&quot;https://en.wikiversity.org/wiki/Visual_Basic_.NET/Reusable_Code&quot;&gt;reusable code&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;In conclusion, if you are learning CSS and HTML, or if you have some intermediate knowledge but have problems with organizing your code, I recomend you to go and read the &lt;strong&gt;&lt;a href=&quot;http://getbem.com/&quot;&gt;BEM docs&lt;/a&gt;&lt;/strong&gt; and start implementing it, and the best part is that you can do small modifications to the rules to keep your code even cleaner.&lt;/p&gt;
+&lt;p&gt;In conclusion, if you are learning CSS and HTML, or if you have some intermediate knowledge but struggle with organizing your code, I recommend you to go and read the &lt;strong&gt;&lt;a href=&quot;http://getbem.com/&quot;&gt;BEM docs&lt;/a&gt;&lt;/strong&gt; and start implementing it.&lt;/p&gt;
 
-&lt;p&gt;Of course there are other methodologyes to keep your code clean like &lt;a href=&quot;http://smacss.com/&quot;&gt;SMACSS&lt;/a&gt; or &lt;a href=&quot;https://github.com/nemophrost/atomic-css/&quot;&gt;Atomic&lt;/a&gt;, however, &lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt; is a super simple, easy and powerfull tool anyone can start using from day 1. And if you add &lt;a href=&quot;https://sass-lang.com/&quot;&gt;SASS&lt;/a&gt; to it, it just became a thing of beauty.&lt;/p&gt;</content><author><name>Mario Dena</name></author><category term="CSS" /><category term="CSS" /><category term="Tools" /><category term="HTML" /><category term="BEM" /><summary type="html">BEM stands for Block-Element-Modifier and it’s basicaly a naming convention, or set of rules you can use to name your HTML elements (with classes), no installation needed no prerequisites, you can simply start using it now.</summary></entry><entry><title type="html">What is BEM?!</title><link href="http://localhost:4000/blog/tools/what-is-bem.html" rel="alternate" type="text/html" title="What is BEM?!" /><published>2019-10-21T00:00:00+00:00</published><updated>2019-10-21T00:00:00+00:00</updated><id>http://localhost:4000/blog/tools/whatisbem</id><content type="html" xml:base="http://localhost:4000/blog/tools/what-is-bem.html">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt; stands for Block-Element-Modifier and it’s basicaly a &lt;a href=&quot;https://en.wikipedia.org/wiki/Naming_convention/&quot;&gt;naming convention&lt;/a&gt;, or set of rules you can use to name your HTML elements &lt;em&gt;(with classes)&lt;/em&gt;, no installation needed no prerequisites, you can simply start using it now.&lt;/p&gt;
+&lt;p&gt;Remember you can do small modifications to the rules as you see fit, however &lt;strong&gt;I recommend you to stick to the standard until you master BEM&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;You can watch this video for a quick run-down.&lt;/p&gt;
-
-&lt;p&gt;Simple as it sounds, &lt;strong&gt;it’s a fantastic tool&lt;/strong&gt;. You can use and &lt;em&gt;modify&lt;/em&gt; it to your needs. And if used right, you will get &lt;strong&gt;clean, readable, reusable and easy to maintain&lt;/strong&gt; code. Both for your HTML and your CSS.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;So, let’s see what &lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt; can do for us.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s say we want to make a &lt;code class=&quot;highlighter-rouge&quot;&gt;navbar&lt;/code&gt; and we have our general layout looking like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&amp;gt;&amp;lt;p&amp;gt;&lt;/span&gt;Sign in&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&amp;gt;&amp;lt;p&amp;gt;&lt;/span&gt;Action&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;logo&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;We can always try to be specific with our selectors, and style doing something similar to this:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;CSS:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.container&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;However as the files grow bigger &lt;em&gt;(both html and css)&lt;/em&gt; you’ll have to remember what is what the whole time, and that will be a problem in the long run. So, as a student I learnt that we should use classes for styling, &lt;a href=&quot;https://css-tricks.com/almanac/selectors/i/id/&quot;&gt;never use ID’s for styling&lt;/a&gt; and some the general &lt;a href=&quot;https://csswizardry.com/2012/11/code-smells-in-css/&quot;&gt;best paractices&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;But what name can we give to each element? For example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    ......&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;There &lt;em&gt;seems&lt;/em&gt; to be nothing wrong with the code above, however what if you have more than one &lt;code class=&quot;highlighter-rouge&quot;&gt;menuList&lt;/code&gt; on your website? What if we want &lt;em&gt;them&lt;/em&gt; to look diferent?&lt;/p&gt;
-
-&lt;p&gt;Then we have to be more specific, and use less generic but equaly descriptive names. And here is where BEM will help us out.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    ...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.mainNavBar&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100vw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.mainNavBar__menuList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;So we name our &lt;code class=&quot;highlighter-rouge&quot;&gt;block&lt;/code&gt; with a descriptive name, and use double underscores for our elements. &lt;code class=&quot;highlighter-rouge&quot;&gt;__element&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Now the code is clean and easy to maintain, even if I come back to the code after a month or a year after writing it, I would know just by reading the names what every part of my code represenst.&lt;/p&gt;
-
-&lt;p&gt;Now let’s get into what I love the most about BEM, what about our &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; elements? Well, you might be inclined to do something like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList__menuItem&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    ...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And while it would work, we have to remember that in BEM the hirarchy is defined by our naming standard and not by our HTML (at least not as much). So we can either leave it as a &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; element, or we could do this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuItem&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    ...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.mainNavBar&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100vw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.mainNavBar__menuList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.mainNavBar__menuItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;What I love about this aproach is we can get single name classes for our styling, and we keep everything organized, but as our site grows &lt;em&gt;(or if we want to go crazy with styling)&lt;/em&gt; we will find that we need to be even more specific, and here is where modifiers came in.&lt;/p&gt;
-
-&lt;p&gt;Let’s say we want only one element in our list to be in italics. There are several ways you can do it, there is the BEM way, doing something like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuItem&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuItem mainNavBar__menuItem--italics&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    ...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.mainNavBar&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100vw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.mainNavBar__menuList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.mainNavBar__menuItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.mainNavBar__menuItem--italics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;italic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;So now we have our &lt;code class=&quot;highlighter-rouge&quot;&gt;block&lt;/code&gt; our &lt;code class=&quot;highlighter-rouge&quot;&gt;__element&lt;/code&gt; adn following the double dash standard our &lt;code class=&quot;highlighter-rouge&quot;&gt;--modifier&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;What’s so cool about this, and what I love the most, is that we can &lt;em&gt;bend&lt;/em&gt; the rules a little bit. This is enterely a personal preference and a way I &lt;em&gt;(sometimes)&lt;/em&gt; deal with my modifiers.&lt;/p&gt;
-
-&lt;p&gt;If my modifier is so simple as to just change the font style to italics, I then add it to my css with all my helper classes like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.--italics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;italic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.--bolded&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Now we are not following the BEM standards, but we made our own modification to the rule, &lt;em&gt;(for more complicated styles I do follow BEM)&lt;/em&gt; and our HTML is clean and has great readability.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuList&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuItem&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNavBar__menuItem --italics&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;item&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    ...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;I just find it amazing that it is so easy to do and the benefits are great, our code is readable, easy to maintain and we have alot of reusable code.&lt;/p&gt;
-
-&lt;p&gt;In conclusion, if you are learning CSS and HTML, or if you have some intermediate knowledge but have problems with organizing your code, I recomend you to go and read the &lt;strong&gt;&lt;a href=&quot;http://getbem.com/&quot;&gt;BEM docs&lt;/a&gt;&lt;/strong&gt; and start implementing it, and the best part is that you can do small modifications to the rules to keep your code even cleaner.&lt;/p&gt;
-
-&lt;p&gt;Of course there are other methodologyes to keep your code clean like &lt;a href=&quot;http://smacss.com/&quot;&gt;SMACSS&lt;/a&gt; or &lt;a href=&quot;https://github.com/nemophrost/atomic-css/&quot;&gt;Atomic&lt;/a&gt;, however, &lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt; is a super simple, easy and powerfull tool anyone can start using from day 1. And if you add &lt;a href=&quot;https://sass-lang.com/&quot;&gt;SASS&lt;/a&gt; to it, it just became a thing of beauty.&lt;/p&gt;</content><author><name>Mario Dena</name></author><category term="CSS" /><category term="CSS" /><category term="Tools" /><category term="HTML" /><category term="BEM" /><summary type="html">BEM stands for Block-Element-Modifier and it’s basicaly a naming convention, or set of rules you can use to name your HTML elements (with classes), no installation needed no prerequisites, you can simply start using it now.</summary></entry></feed>
+&lt;p&gt;Of course, there are other methodologies to keep your code clean like &lt;a href=&quot;http://smacss.com/&quot;&gt;SMACSS&lt;/a&gt; or &lt;a href=&quot;https://github.com/nemophrost/atomic-css/&quot;&gt;Atomic&lt;/a&gt;, however, &lt;code class=&quot;highlighter-rouge&quot;&gt;BEM&lt;/code&gt; is a super simple, easy and powerful tool anyone can start using from day 1. And if you add &lt;a href=&quot;https://sass-lang.com/&quot;&gt;SASS&lt;/a&gt; to it, it just became &lt;strong&gt;a thing of beauty.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Mario Dena</name></author><category term="CSS" /><category term="CSS" /><category term="Tools" /><category term="HTML" /><category term="BEM" /><summary type="html">BEM stands for Block-Element-Modifier and it’s basically a naming convention or set of rules you can use to name your HTML elements (with classes). Since it’s not a framework or a piece of software, you can simply start using it now.</summary></entry></feed>
