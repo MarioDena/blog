@@ -8,7 +8,7 @@ collections:
 email: your-email@example.com
 author: Mario Dena
 description: A Web-Developer's Blog
-baseurl: '/blog'
+baseurl: ''
 url: ''
 theme: jekyll-theme-minimal
 logo: Photo.jpeg
