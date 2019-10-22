@@ -1,0 +1,42 @@
+.navBar {
+  display: flex;
+  width: 100vw;
+  height: 50px;
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navBar__logo {
+  max-height: 40px;
+  margin-right: auto;
+}
+
+.navBar__logo:hover {
+  cursor: pointer;
+}
+
+.navBar__Menu {
+  display: flex;
+}
+
+.navBar__menuItem {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.navBar__button{
+    background-color: red;
+    border-radius: 2px;
+}
+
+.navBar__text{
+    font-family: sans-serif;
+}
+
+.navBar__text--red{
+  font-family: sans-serif;
+  color:red;
+}
