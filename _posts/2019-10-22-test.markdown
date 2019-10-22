@@ -1,13 +1,13 @@
 ---
-title: What is BEM?!
+title: TEST!
 subtitle: And why you should start using it!
-date: 2019-10-21
+date: 2019-10-22
 category: CSS
 layout: post
 tags: CSS Tools HTML BEM
 comments: true
-permalink: "/tools/what-is-bem.html"
-identifier: whatbem01 
+permalink: "/tools/test.html"
+identifier: whatbem02
 ---
 
 `BEM` stands for Block-Element-Modifier and it's basicaly a [naming convention][nc], or set of rules you can use to name your HTML elements _(with classes)_, no installation needed no prerequisites, you can simply start using it now.

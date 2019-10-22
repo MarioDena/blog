@@ -244,17 +244,17 @@ figure { margin-right: 2px; margin-left: 0; }
 .socialGithub { background-image: url(./socialIcons/Ggrey.png); }
 .socialGithub:hover { background-image: url(./socialIcons/Gblack.png); }
 
-.navBar { display: flex; width: 575px; height: 40px; background-color: #f0f0f0; position: fixed; margin-top: -40px; margin-left: -40px; }
+.navBar { display: flex; width: 595px; height: 40px; background-color: #f0f0f0; position: fixed; margin-top: -40px; margin-left: -40px; }
 .navBar > ul { display: flex; width: 100%; }
 .navBar > ul > li { padding-top: 10px; margin-right: 20px; list-style: none; }
 
-.wrapper { width: 880px; }
+.wrapper { width: 900px; }
 
 .title { text-align: center; }
 
 .subTitle { margin-top: -15px; text-align: center; }
 
-section { width: 530px; }
+section { width: 550px; }
 
 body { padding: 30px; overflow-x: hidden; }
 

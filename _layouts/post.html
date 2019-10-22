@@ -29,11 +29,11 @@
               <a href="https://github.com/MarioDena" target="_blank"><div class="socialGithub"></div></a>
               
             </div>
-            <img src="/blog/assets/css/socialIcons/Tblue.png" style="visibility: hidden">
-            <img src="/blog/assets/css/socialIcons/Yred.png" style="visibility: hidden">
-            <img src="/blog/assets/css/socialIcons/Lblue.png" style="visibility: hidden">
-            <img src="/blog/assets/css/socialIcons/Gblack.png" style="visibility: hidden">
         </div>
+        <img src="/blog/assets/css/socialIcons/Tblue.png"/>
+            <img src="/blog/assets/css/socialIcons/Yred.png"/>
+            <img src="/blog/assets/css/socialIcons/Lblue.png"/>
+            <img src="/blog/assets/css/socialIcons/Gblack.png"/>
         
       </postheader>
       <section>
@@ -59,6 +59,33 @@
         
         
         {{content}}
+
+        <br>
+        <hr>
+
+        {% if page.comments %}
+        <div id="disqus_thread"></div>
+        <script>
+        
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        
+        var disqus_config = function () {
+        this.page.url = '{% capture url_path %}{{site.url}}{{page.url}}{% endcapture %}';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = '{{ page.identifier }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://mario-dena-blog.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                    
+        {% endif %}
 
       </section>
       <footer>
