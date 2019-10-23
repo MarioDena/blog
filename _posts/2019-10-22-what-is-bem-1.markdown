@@ -83,7 +83,7 @@ So we name our `block` with a descriptive name, and use double underscores for o
 
 The code is clean and easy to maintain, even if I come back to it a month or a year after writing it, **I would know just by reading the names what every part of my code represents.**
 
-## Let's talk about hierarchy
+## Naming hierarchy is a bit different.
 
 Ok! Now let's get into something *really* interesting about `BEM`. What would you do with our `li` elements? Well, you might be inclined to do something like this:
 
