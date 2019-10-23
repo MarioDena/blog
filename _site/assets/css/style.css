@@ -142,13 +142,13 @@ h2 { color: #393939; }
 
 h3, h4, h5, h6 { color: #494949; }
 
-a, .categoHov { color: #267CB9; text-decoration: none; }
+a { color: #267CB9; text-decoration: none; }
 
-a:hover, .categoHov:hover, a:focus, .categoHov:focus { color: #069; font-weight: bold; }
+a:hover, a:focus { color: #069; font-weight: bold; }
 
-a small, .categoHov small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
+a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
 
-a:hover small, .categoHov:hover small { color: #777; }
+a:hover small { color: #777; }
 
 .wrapper { width: 860px; margin: 0 auto; }
 
@@ -174,21 +174,21 @@ header ul, postheader ul { list-style: none; height: 40px; padding: 0; backgroun
 
 header li, postheader li { width: 89px; float: left; border-right: 1px solid #e0e0e0; height: 40px; }
 
-header li:first-child a, postheader li:first-child a, header li:first-child .categoHov, postheader li:first-child .categoHov { border-radius: 5px 0 0 5px; }
+header li:first-child a, postheader li:first-child a { border-radius: 5px 0 0 5px; }
 
-header li:last-child a, postheader li:last-child a, header li:last-child .categoHov, postheader li:last-child .categoHov { border-radius: 0 5px 5px 0; }
+header li:last-child a, postheader li:last-child a { border-radius: 0 5px 5px 0; }
 
-header ul a, postheader ul a, header ul .categoHov, postheader ul .categoHov { line-height: 1; font-size: 11px; color: #676767; display: block; text-align: center; padding-top: 6px; height: 34px; }
+header ul a, postheader ul a { line-height: 1; font-size: 11px; color: #676767; display: block; text-align: center; padding-top: 6px; height: 34px; }
 
-header ul a:hover, postheader ul a:hover, header ul .categoHov:hover, postheader ul .categoHov:hover, header ul a:focus, postheader ul a:focus, header ul .categoHov:focus, postheader ul .categoHov:focus { color: #675C5C; font-weight: bold; }
+header ul a:hover, postheader ul a:hover, header ul a:focus, postheader ul a:focus { color: #675C5C; font-weight: bold; }
 
-header ul a:active, postheader ul a:active, header ul .categoHov:active, postheader ul .categoHov:active { background-color: #f0f0f0; }
+header ul a:active, postheader ul a:active { background-color: #f0f0f0; }
 
 strong { color: #222; font-weight: 700; }
 
 header ul li + li + li, postheader ul li + li + li { border-right: none; width: 89px; }
 
-header ul a strong, postheader ul a strong, header ul .categoHov strong, postheader ul .categoHov strong { font-size: 14px; display: block; color: #222; }
+header ul a strong, postheader ul a strong { font-size: 14px; display: block; color: #222; }
 
 section { width: 500px; float: right; padding-bottom: 50px; }
 
@@ -202,7 +202,7 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
   header, postheader, section, footer { float: none; position: static; width: auto; }
   header, postheader { padding-right: 320px; }
   section { border: 1px solid #e5e5e5; border-width: 1px 0; padding: 20px 0; margin: 0 0 20px; }
-  header a small, postheader a small, header .categoHov small, postheader .categoHov small { display: inline; }
+  header a small, postheader a small { display: inline; }
   header ul, postheader ul { position: absolute; right: 50px; top: 52px; } }
 @media print, screen and (max-width: 720px) { body { word-wrap: break-word; }
   header, postheader { padding: 0; }
@@ -222,11 +222,11 @@ figure { margin-right: 2px; margin-left: 0; }
 
 .homeIconNav { margin-left: auto; }
 
-.categoHov { position: relative; display: flex; flex-direction: column; cursor: pointer; height: 30px; }
+.categoHov { color: #267CB9; position: relative; display: flex; flex-direction: column; cursor: pointer; height: 30px; }
 .categoHov ul { margin: 0; padding: 0; position: absolute; top: 30px; left: -5px; }
 .categoHov ul:first-child { padding-top: 10px; }
 .categoHov .menuItem { box-sizing: border-box; display: none; list-style: none; margin: 0; background-color: #f0f0f0; padding: 10px; width: 150px; border-bottom: 1px solid lightgray; }
-.categoHov:hover .menuItem { display: block; list-style: none; }
+.categoHov:hover .menuItem { display: block; width: 100%; list-style: none; }
 
 #toggleMenu { display: block; list-style: none; }
 
@@ -266,7 +266,11 @@ footer { text-align: center; padding: 20px; margin-bottom: -60px; }
 
 .test { width: 100%; text-align: right; }
 
-a:hover, .categoHov:hover { font-weight: inherit; }
+a { background: none; }
+
+a:hover { font-weight: inherit; border: none; outline: none; background: none; }
+
+a:focus { font-weight: inherit; border: none; outline: none; background: none; }
 
 .card { display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
 .card__text { height: 100%; display: flex; flex-direction: column; text-align: center; }
