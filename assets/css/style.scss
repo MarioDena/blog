@@ -3,6 +3,22 @@
 
 @import "{{ site.theme }}";
 
+.postImage{
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+.postImageGeneral{
+  @extend .postImage;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
 .subtitlePost{
   margin-top: -15px;
@@ -13,7 +29,7 @@
 .view{
   margin-top: -10px;
   //font-size: 13px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-style: italic;
 }
 
@@ -168,6 +184,16 @@ figure{
 
 section{
   width: 550px;
+
+  & h1{
+    color: black;
+  }
+
+  & h2{
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
 }
 
 body{
@@ -185,6 +211,7 @@ margin-top: -40px;
 
 postheader{
   @extend header;
+  //display: none;
 }
 
 footer{
@@ -203,7 +230,7 @@ a{
 }
 
 a:hover{
-  font-weight: initial;
+  font-weight: inherit;
   border: none;
   outline: none;
   background:none;
@@ -211,7 +238,7 @@ a:hover{
 }
 
 a:focus{
-  font-weight: initial;
+  font-weight: inherit;
   border: none;
   outline: none;
   background:none;

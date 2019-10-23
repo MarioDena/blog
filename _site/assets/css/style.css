@@ -212,9 +212,13 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
   header ul, postheader ul { width: 99%; }
   header li, postheader li, header ul li + li + li, postheader ul li + li + li { width: 33%; } }
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
+.postImage, .postImageGeneral { border: 1px solid lightgray; border-radius: 10px; display: block; box-sizing: border-box; margin-bottom: 20px; margin-left: auto; margin-right: auto; max-width: 80%; }
+
+.postImageGeneral { margin-top: 40px; margin-bottom: 40px; }
+
 .subtitlePost { margin-top: -15px; font-style: italic; font-size: 13px; }
 
-.view { margin-top: -10px; margin-bottom: 50px; font-style: italic; }
+.view { margin-top: -10px; margin-bottom: 40px; font-style: italic; }
 
 pre { margin-left: 0; padding: 8px 8px; }
 
@@ -257,6 +261,8 @@ figure { margin-right: 2px; margin-left: 0; }
 .subTitle { margin-top: -15px; text-align: center; }
 
 section { width: 550px; }
+section h1 { color: black; }
+section h2 { color: black; padding-top: 20px; padding-bottom: 10px; }
 
 body { padding: 30px; overflow-x: hidden; }
 
@@ -268,9 +274,9 @@ footer { text-align: center; padding: 20px; margin-bottom: -60px; }
 
 a { background: none; }
 
-a:hover { font-weight: inherit; border: none; outline: none; background: none; }
+a:hover { font-weight: inherit; border: none; outline: none; background: none; background-color: initial; }
 
-a:focus { font-weight: inherit; border: none; outline: none; background: none; }
+a:focus { font-weight: inherit; border: none; outline: none; background: none; background-color: initial; }
 
 .card { display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
 .card__text { height: 100%; display: flex; flex-direction: column; text-align: center; }
@@ -282,6 +288,7 @@ a:focus { font-weight: inherit; border: none; outline: none; background: none; }
 
 @media print, screen and (max-width: 960px) { .categoHov { margin-left: -20px; }
   .navBar { width: 101vw; z-index: 5; position: sticky; top: 0px; }
+  @supports (-webkit-overflow-scrolling: touch) { .navBar { position: sticky; position: -webkit-sticky; } }
   .wrapper { width: 100%; }
   header, postheader { height: 320px; margin-left: -40px; margin-right: -40px; }
   postheader { display: none; }
