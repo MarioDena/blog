@@ -11,6 +11,6 @@ description: A Web-Developer's Blog
 baseurl: '/blog'
 url: ''
 theme: jekyll-theme-minimal
-logo: Photo.jpeg
+logo: Photo.jpg
 plugins:
 - jekyll-feed
