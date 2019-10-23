@@ -203,17 +203,19 @@ a{
 }
 
 a:hover{
-  font-weight: inherit;
+  font-weight: initial;
   border: none;
   outline: none;
   background:none;
+  background-color: initial;
 }
 
 a:focus{
-  font-weight: inherit;
+  font-weight: initial;
   border: none;
   outline: none;
   background:none;
+  background-color: initial;
 }
 
 .card {
@@ -254,12 +256,19 @@ a:focus{
     .categoHov{
       margin-left: -20px;
     }
-   
+  
+    
     .navBar{
       width: 101vw;
       z-index: 5;
       position: sticky;
       top: 0px;
+
+      @supports (-webkit-overflow-scrolling: touch) {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 40px;
+      }
     }
     .wrapper{
       width: 100%;

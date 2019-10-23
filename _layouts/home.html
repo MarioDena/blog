@@ -54,7 +54,7 @@
         <br>
         <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
         <ul2 class="post-list">
-          {%- for post in site.posts -%}
+          {%- for post in site.posts limit:4 -%}
           <li2>
             {%- assign date_format = site.minimal.date_format | default: "%b %-d, %Y" -%}
             <span class="post-meta">{{ post.date | date: date_format }}</span>
