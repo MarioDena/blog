@@ -5,7 +5,7 @@ date: 2019-10-23
 category: Tools
 layout: post
 tags: CSS Tools HTML BEM
-imgLink: http://i.qkme.me/3ploog.jpg
+imgLink: /blog/img/oct-2019/memeBEM2.jpg
 comments: true
 permalink: "/tools/what-is-bem-1.html"
 identifier: whatisbem02
@@ -154,7 +154,7 @@ Imagine we want only one element in our list to be in _italics_. The `BEM` way t
 
 {% endhighlight %}
 
-So, now we have our `block` our `__element` adn following the double dash standard our `--modifier`.
+So, now we have our `block` our `__element` and following the double dash standard our `--modifier`.
 
 What's so cool about this, and what I love the most, is that we can _bend_ the rules a little bit. **This is entirely a personal preference** and my way to _(sometimes)_ deal with my modifiers. 
 
@@ -194,7 +194,7 @@ Cheers!
 
 ![meme][img1]{:class="postImageGeneral"}
 
-[img1]: https://i.imgflip.com/3e32dh.jpg
+[img1]: /blog/img/oct-2019/memeBEM.jpg
 [ruc]: https://en.wikiversity.org/wiki/Visual_Basic_.NET/Reusable_Code
 [hc]: http://webreference.com/html/rendering/index-2.html
 [nv]: https://css-tricks.com/almanac/selectors/i/id/
