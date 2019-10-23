@@ -222,7 +222,7 @@ figure { margin-right: 2px; margin-left: 0; }
 
 .homeIconNav { margin-left: auto; }
 
-.categoHov { position: relative; display: flex; flex-direction: column; cursor: pointer; }
+.categoHov { position: relative; display: flex; flex-direction: column; cursor: pointer; height: 30px; }
 .categoHov ul { margin: 0; padding: 0; position: absolute; top: 30px; left: -5px; }
 .categoHov ul:first-child { padding-top: 10px; }
 .categoHov .menuItem { box-sizing: border-box; display: none; list-style: none; margin: 0; background-color: #f0f0f0; padding: 10px; width: 150px; border-bottom: 1px solid lightgray; }

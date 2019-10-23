@@ -2,13 +2,14 @@
 title: What is BEM?!
 subtitle: And why you should start using it!
 date: 2019-10-22
-category: CSS
+category: Tools
 layout: post
 tags: CSS Tools HTML BEM
 comments: true
 permalink: "/tools/whatisbem.html"
 identifier: whatisbem01 
 ---
+![alt text][img1]
 
 `BEM` stands for **Block-Element-Modifier** and it's basically a [naming convention][nc] or set of rules you can use to name your `HTML elements` _(with classes)_. Since it's not a framework or a piece of software, you can simply start using it now.
 
@@ -116,7 +117,7 @@ While it would work, we have to remember that in BEM the [hierarchy][hc] is defi
 }
 {% endhighlight %}
 
-What I love about this approach is we can get **single class elements** for styling, while keeping everything organized. However, as our site grows _(or if we want to go crazy with styling)_ we will find that we need to be even more specific, and here is where modifiers come in handy.
+What I love about this approach is we can get **single class elements** for styling, while keeping everything organized. However, as our site grows _(or if we want to go crazy with styling)_ we will find ourselves in need of something even more specific, and here is where modifiers come in handy.
 
 Let's say we want only one element in our list to be in _italics_. There are several ways you can do it, there is the `BEM` way, something like this:
 
@@ -184,6 +185,8 @@ Remember you can do small modifications to the rules as you see fit, however **I
 Of course, there are other methodologies to keep your code clean like [SMACSS][smacss] or [Atomic][atm], however, `BEM` is a super simple, easy and powerful tool anyone can start using from day 1. And if you add [SASS][sass] to it, it just became **a thing of beauty.**
 
 
+
+[img1]: https://bulldogjob.com/ckeditor_assets/pictures/256/content_obiwan.jpg "Meme taken from https://bulldogjob.com/news/250-what-makes-a-good-programmer"
 [ruc]: https://en.wikiversity.org/wiki/Visual_Basic_.NET/Reusable_Code
 [hc]: http://webreference.com/html/rendering/index-2.html
 [nv]: https://css-tricks.com/almanac/selectors/i/id/

@@ -30,28 +30,28 @@
               
             </div>
         </div>
-        <img src="/blog/assets/css/socialIcons/Tblue.png"/>
-            <img src="/blog/assets/css/socialIcons/Yred.png"/>
-            <img src="/blog/assets/css/socialIcons/Lblue.png"/>
-            <img src="/blog/assets/css/socialIcons/Gblack.png"/>
+        <img src="/blog/assets/css/socialIcons/Tblue.png" style="visibility: hidden;"/>
+            <img src="/blog/assets/css/socialIcons/Yred.png" style="visibility: hidden;"/>
+            <img src="/blog/assets/css/socialIcons/Lblue.png" style="visibility: hidden;"/>
+            <img src="/blog/assets/css/socialIcons/Gblack.png" style="visibility: hidden;"/>
         
       </postheader>
       <section>
-            <div class="navBar">
-                    <ul>
-                      <li class="categoHov">Categories &#9662;
-                        <ul>
-                          <li class="menuItem" id=""><a href=""> JavaScript</a></li>
-                          <li class="menuItem" id=""><a href=""> CSS</a></li>
-                          <li class="menuItem" id=""><a href=""> React</a></li>
-                          <li class="menuItem" id=""><a href=""> Coding Challenges</a></li>
-                          <li class="menuItem" id=""><a href=""> Tools</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="">My portfolio</a></li>
-                      <li class="homeIconNav"><a href="{{ "/" | absolute_url }}"><img src="/blog/assets/css/socialIcons/homeBlue.png" alt="home"></a></li>
-                    </ul>
-                  </div>
+          <div class="navBar">
+              <ul>
+                <li class="categoHov" id="master">Categories &#9662;
+                  <ul>
+                      <li class="menuItem" id=""><a href="{{ "/js.html" | absolute_url }}"> JavaScript</a></li>
+                      <li class="menuItem" id=""><a href="{{ "/css.html" | absolute_url }}"> CSS</a></li>
+                      <li class="menuItem" id=""><a href="{{ "/react.html" | absolute_url }}"> React</a></li>
+                      <li class="menuItem" id=""><a href="{{ "/coding.html" | absolute_url }}"> Coding Challenges</a></li>
+                      <li class="menuItem" id=""><a href="{{ "/tools.html" | absolute_url }}"> Tools</a></li>
+                  </ul>
+                </li>
+                <li><a href="">My portfolio</a></li>
+                <li class="homeIconNav"><a href="{{ "/" | absolute_url }}"><img src="/blog/assets/css/socialIcons/homeBlue.png" alt="home"></a></li>
+              </ul>
+            </div>
         <br>
         <small>{{ page.date | date: "%-d %B %Y" }}</small>
         <h1>{{ page.title }}</h1>

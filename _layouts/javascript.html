@@ -29,7 +29,7 @@
               
             </div>
         </div>
-            <img src="/blog/assets/css/socialIcons/Tblue.png" style="visibility: hidden;"/>
+        <img src="/blog/assets/css/socialIcons/Tblue.png" style="visibility: hidden;"/>
             <img src="/blog/assets/css/socialIcons/Yred.png" style="visibility: hidden;"/>
             <img src="/blog/assets/css/socialIcons/Lblue.png" style="visibility: hidden;"/>
             <img src="/blog/assets/css/socialIcons/Gblack.png" style="visibility: hidden;"/>
@@ -39,11 +39,11 @@
           <ul>
             <li class="categoHov" id="master">Categories &#9662;
               <ul>
-                <li class="menuItem" id=""><a href="{{ "/js.html" | absolute_url }}"> JavaScript</a></li>
-                <li class="menuItem" id=""><a href="{{ "/css.html" | absolute_url }}"> CSS</a></li>
-                <li class="menuItem" id=""><a href="{{ "/react.html" | absolute_url }}"> React</a></li>
-                <li class="menuItem" id=""><a href="{{ "/coding.html" | absolute_url }}"> Coding Challenges</a></li>
-                <li class="menuItem" id=""><a href="{{ "/tools.html" | absolute_url }}"> Tools</a></li>
+                    <li class="menuItem" id=""><a href="{{ "/js.html" | absolute_url }}"> JavaScript</a></li>
+                    <li class="menuItem" id=""><a href="{{ "/css.html" | absolute_url }}"> CSS</a></li>
+                    <li class="menuItem" id=""><a href="{{ "/react.html" | absolute_url }}"> React</a></li>
+                    <li class="menuItem" id=""><a href="{{ "/coding.html" | absolute_url }}"> Coding Challenges</a></li>
+                    <li class="menuItem" id=""><a href="{{ "/tools.html" | absolute_url }}"> Tools</a></li>
               </ul>
             </li>
             <li><a href="">My portfolio</a></li>
@@ -52,25 +52,27 @@
         </div>
         {%- if site.posts.size > 0 -%}
         <br>
-        <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
+        <h2 class="post-list-heading">{{ page.list_title | default: "Posts in category: Javascript" }}</h2>
         <ul2 class="post-list">
           {%- for post in site.posts -%}
+          {%- if post.category == "JS" -%}
           <li2>
-            {%- assign date_format = site.minimal.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h3>
-            <p class="subtitlePost">{{ post.subtitle | escape }}</p>
-            
-              {{ post.excerpt }} 
-              <div class="test"><a href="{{ post.url | relative_url }}">READ MORE</a></div>  
-              <br>
-              <hr>
-            
-          </li2>
+                {%- assign date_format = site.minimal.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+                <h3>
+                  <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                  </a>
+                </h3>
+                <p class="subtitlePost">{{ post.subtitle | escape }}</p>
+                
+                  {{ post.excerpt }} 
+                  <div class="test"><a href="{{ post.url | relative_url }}">READ MORE</a></div>  
+                  <br>
+                  <hr>
+                
+              </li2>
+          {%- endif -%}
           {%- endfor -%}
           </ul2>
       {%- endif -%}
