@@ -1,5 +1,5 @@
 ---
 title: Posts about CSS
-permalink: "/css.html"
+permalink: "/html-css.html"
 layout: css
 ---

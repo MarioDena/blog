@@ -1,0 +1,128 @@
+---
+title: HTML < head > for beginners
+subtitle: This are the tags you are not using!
+date: 2019-10-23
+category: HTML/CSS
+layout: postwip
+tags: CSS Tools HTML JS
+imgLink: /blog/img/oct-2019/memeHEAD.jpg
+comments: true
+permalink: "html-css/about-head-tags.html"
+identifier: metatags01
+---
+
+Have you tried to **share a link of your web on social media** but your link display has no image or the description is not what you want? Fear no more! We will review some of the most important tags to make your website, _social media friendly_ and some other cool stuff.
+
+When you start to get your feet wet in the Web-Development world, you are prone to skip some basic stuff like what is all the content inside your `<head>` tag and what it does. 
+
+What is worse, you can **create the habit of forgeting about filling it all together** besides the most basic tags. _I'm looking at you HTML snippets_.
+
+This can be detrimental because really useful stuff happends in your `<head>` _pun intended_.
+
+## The basics
+
+Just to take out of the way the really **commonly used tags**...
+
+`charset`: You need to define a [character encoding][che]{:target="_blank"} for your website, not all browsers understand all encodings, so the more widely a character encoding is used, you have a better chance that a browser will understand it.
+
+The two more widely used are: ISO-8859-1 and **UTF-8**
+
+{% highlight html %}
+  <meta charset="UTF-8">
+{% endhighlight %}
+
+
+`title`: This one is used to display your title not on the content of your page but on the `tab` of your browser, it's also used for `SEO` but that's out of scope for now.
+
+{% highlight html %}
+  <title>Example Title</title>
+{% endhighlight %}
+
+
+`viewport`: Used for responsiveness, it defines the users visible area for your page and the initial scale at wicht the web will be displayed, **if you don't use this tag your site will look very different and even ugly.**
+
+Definetly mandatory in this day and age.
+
+{% highlight html %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% endhighlight %}
+
+
+`stylesheet`: This one is pretty much self explanatory and you will most likely always use it. You load your CSS with all your styling for the page.
+
+{% highlight html %}
+  <link rel="stylesheet" href="style.css">
+{% endhighlight %}
+
+
+`X-UA-Compatible` This one is kind of optional, however it tells IE how to handle your content, not as important as the others, but nevertheless useful... maybe.
+
+You usually want to set it to `ie=edge` It means that IE will try to use the newer technologies. To be honest, I don't see any reason to support IE anymore, but companies do, so you might want to read a little bit more about it.
+
+{% highlight html %}
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+{% endhighlight %}
+
+
+So, a basic `<head>` should look like this:
+
+{% highlight html %}
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+{% endhighlight %}
+
+## Moving on to the good stuff
+
+If you know how websites are loaded by the browser you might have learned to place all your `<script>` files at the end of your `<body>` to avoid locking the browser. This however I believe is an old workaround and an outdated method. 
+
+So yeah, your `<script>` tags are now part of your `<head>` thanks to the `async` and `defer` properties.
+
+{% highlight html %}
+  <script src="./main.js" defer></script>
+{% endhighlight %}
+
+What's the diference? `async` downloads your js file while continuing to parse your HTML and executes said script the moment it finish the download, while `defer` does the same when downloading but waits to execute after the whole HTML document is parsed.
+
+`icon` This one is asked about everywhere on the internet. **How to add a favicon icon to my site?**.
+Well, that's an easy one!
+
+{% highlight html %}
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+{% endhighlight %}
+
+Just remember: you will need your `favicon.ico` file at the root folder of your site _(it can be anywhere, really)_.
+
+### Open graph protocol
+
+This is used to construct your facebook cards **(many sites use this!)** this cards are shown when you paste your link on social media and displays an image some description, title, etc..., **This works on chats, instagram, even slack and discord!**
+
+The following are **tags I use to make my blog posts social friendly**  you can read more about it on the Open graph protocol documentation.
+
+og:title
+
+og:image
+
+og:description
+
+og:site_name
+
+og:locale
+
+
+
+![meme][img1]{:class="postImageGeneral"}
+
+
+
+[che]:https://en.wikipedia.org/wiki/Character_encoding
+[defer]:https://www.w3schools.com/tags/tag_script.asp
+[xua]:https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do
+[snippets]:https://code.visualstudio.com/docs/editor/userdefinedsnippets
+[og]:https://ogp.me/
+[oldscript]:https://teamtreehouse.com/community/best-practice-where-to-include-your-script-tags
+[IErevshare]:https://www.netmarketshare.com/browser-market-share.aspx

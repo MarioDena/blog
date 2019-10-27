@@ -28,7 +28,7 @@
 <!-- End Jekyll SEO tag -->
 
     <link rel='icon' href='/blog/favicon.ico' type='image/x-icon'/>
-    <link rel="stylesheet" href="/blog/assets/css/style.css?v=c2f820ae53fa99b25c26fcc9f5eba2ed25fa49a3">
+    <link rel="stylesheet" href="/blog/assets/css/style.css?v=131bfa2bcaf2e447d4612e7f61c8c239aad93fa1">
     
   </head>
   <body>
@@ -42,8 +42,7 @@
           </div>
         </div>
         <div class="card__text">
-            <p>Fullstack Web-Developer, React, BEM, Ruby, SASS lover. <p>Student <a target="_blank" href="https://www.microverse.org/">@Microverse</a></p></p>
-            
+          <p>A blog about Web-Development, React, Ruby, JavaScript, CSS.<br>Written by a proud <br>Student <a target="_blank" href="https://www.microverse.org/">@Microverse</a></p>         
             <div class="socialIcons">
               <a href="https://twitter.com/MarioDenaCode" target="_blank"><div class="socialTwitter"></div></a>
               <a href="https://www.youtube.com/channel/UCgc68AMRICj7iI7gJ6y4OVg" target="_blank"><div class="socialYoutube"></div></a>
@@ -64,7 +63,7 @@
                 <li class="categoHov" id="master">Categories &#9662;
                   <ul>
                       <li class="menuItem" id=""><a href="http://localhost:4000/blog/js.html"> JavaScript</a></li>
-                      <li class="menuItem" id=""><a href="http://localhost:4000/blog/css.html"> CSS</a></li>
+                      <li class="menuItem" id=""><a href="http://localhost:4000/blog/html-css.html"> HTML/CSS</a></li>
                       <li class="menuItem" id=""><a href="http://localhost:4000/blog/react.html"> React</a></li>
                       <li class="menuItem" id=""><a href="http://localhost:4000/blog/coding.html"> Coding Challenges</a></li>
                       <li class="menuItem" id=""><a href="http://localhost:4000/blog/tools.html"> Tools</a></li>
@@ -82,9 +81,9 @@
         <p class="view">And why you should start using it!</p>
         
         
-        <p><code class="highlighter-rouge">BEM</code> stands for <strong>Block-Element-Modifier</strong> and it’s basically a <a href="https://en.wikipedia.org/wiki/Naming_convention/">naming convention</a> or set of rules you can use to name your <code class="highlighter-rouge">HTML elements</code> <em>(with classes)</em>. Since it’s not a framework or a piece of software, you can simply start using it now.</p>
+        <p><code class="highlighter-rouge">BEM</code> stands for <strong>Block-Element-Modifier</strong> and it’s basically a <a href="https://en.wikipedia.org/wiki/Naming_convention/" target="_blank">naming convention</a> or set of rules you can use to name your <code class="highlighter-rouge">HTML elements</code> <em>(with classes)</em>. Since it’s not a framework or a piece of software, you can simply start using it now.</p>
 
-<p>You can watch this video for a quick run-down.</p>
+<p>You can watch <a href="https://www.youtube.com/watch?v=1fW8v4ErK10" target="_blank">this video</a> for a quick run-down.</p>
 
 <p>Simple as it sounds, <strong>it’s a fantastic tool</strong>. You can use and <em>modify*</em> it to your needs. And if used right, you will get <strong>clean, readable, reusable and easy to maintain</strong> code, both for your <code class="highlighter-rouge">HTML</code> and your <code class="highlighter-rouge">CSS</code>.</p>
 
@@ -104,13 +103,13 @@
   <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">""</span> <span class="na">alt=</span><span class="s">"logo"</span> <span class="nt">/&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
-<p>We can always try to be specific with our <a href="https://www.sitepoint.com/css-selectors/">selectors</a>, and style doing something similar to this:</p>
+<p>We can always try to be specific with our <a href="https://www.sitepoint.com/css-selectors/" target="_blank">selectors</a>, and style doing something similar to this:</p>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.container</span> <span class="o">&gt;</span> <span class="nt">ul</span> <span class="p">{</span>
   <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>However as the files grow bigger <em>(both HTML and CSS)</em> you’ll have to remember what is what the whole time, and <strong>that will be a problem in the long run.</strong> As a student, I learned we should use classes for styling, <a href="https://css-tricks.com/almanac/selectors/i/id/">never use IDs for styling</a> and some general <a href="https://csswizardry.com/2012/11/code-smells-in-css/">best practices</a>.</p>
+<p>However as the files grow bigger <em>(both HTML and CSS)</em> you’ll have to remember what is what the whole time, and <strong>that will be a problem in the long run.</strong> As a student, I learned we should use classes for styling, <a href="https://css-tricks.com/almanac/selectors/i/id/" target="_blank">never use IDs for styling</a> and some general <a href="https://csswizardry.com/2012/11/code-smells-in-css/" target="_blank">best practices</a>.</p>
 
 <p>For example:</p>
 
@@ -151,7 +150,7 @@
     <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"mainNavBar__menuList__menuItem"</span><span class="nt">&gt;</span>item<span class="nt">&lt;/li&gt;</span>
     ...</code></pre></figure>
 
-<p>While the code above would work, we have to remember, <strong>in BEM the <a href="http://webreference.com/html/rendering/index-2.html">hierarchy</a> is defined by our naming standard</strong> and not by our HTML <em>(at least not as much)</em>. So we can either leave it as a <code class="highlighter-rouge">li</code> element or we could do, this:</p>
+<p>While the code above would work, we have to remember, <strong>in BEM the <a href="http://webreference.com/html/rendering/index-2.html" target="_blank">hierarchy</a> is defined by our naming standard</strong> and not by our HTML <em>(at least not as much)</em>. So we can either leave it as a <code class="highlighter-rouge">li</code> element or we could do, this:</p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mainNavBar"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"mainNavBar__menuList"</span><span class="nt">&gt;</span>
@@ -216,7 +215,7 @@
   <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>Now we are not following the <code class="highlighter-rouge">BEM</code> standards, but <strong>we made our own modification,</strong> <em>(for more complicated styles I do follow BEM)</em> and our <code class="highlighter-rouge">HTML</code> is clean and has great <a href="https://en.wikipedia.org/wiki/Readability">readability</a>:</p>
+<p>Now we are not following the <code class="highlighter-rouge">BEM</code> standards, but <strong>we made our own modification,</strong> <em>(for more complicated styles I do follow BEM)</em> and our <code class="highlighter-rouge">HTML</code> is clean and has great <a href="https://en.wikipedia.org/wiki/Readability" target="_blank">readability</a>:</p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mainNavBar"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"mainNavBar__menuList"</span><span class="nt">&gt;</span>
@@ -226,11 +225,11 @@
 
 <h2 id="in-conclusion">In conclusion…</h2>
 
-<p><strong>I find it amazing that it’s so easy and it offers so much.</strong> Our code is readable, easy to maintain and we have a lot of <a href="https://en.wikiversity.org/wiki/Visual_Basic_.NET/Reusable_Code">reusable code</a>.</p>
+<p><strong>I find it amazing that it’s so easy and it offers so much.</strong> Our code is readable, easy to maintain and we have a lot of <a href="https://en.wikiversity.org/wiki/Visual_Basic_.NET/Reusable_Code" target="_blank">reusable code</a>.</p>
 
-<p>Of course, there are other methodologies to keep your code clean like <a href="http://smacss.com/">SMACSS</a> or <a href="https://github.com/nemophrost/atomic-css/">Atomic</a>, however, <code class="highlighter-rouge">BEM</code> is a super simple, easy and powerful tool anyone can start using from day one. And if you add <a href="https://sass-lang.com/">SASS</a> to it… Well, that’s just <strong>a thing of beauty.</strong></p>
+<p>Of course, there are other methodologies to keep your code clean like <a href="http://smacss.com/" target="_blank">SMACSS</a> or <a href="https://github.com/nemophrost/atomic-css/" target="_blank">Atomic</a>, however, <code class="highlighter-rouge">BEM</code> is a super simple, easy and powerful tool anyone can start using from day one. And if you add <a href="https://sass-lang.com/" target="_blank">SASS</a> to it… Well, that’s just <strong>a thing of beauty.</strong></p>
 
-<p>So, if you are learning CSS and HTML, or if you have some intermediate knowledge but struggle with organizing your code, <strong>I recommend you to go and read the <a href="http://getbem.com/">BEM docs</a> and start implementing it.</strong></p>
+<p>So, if you are learning CSS and HTML, or if you have some intermediate knowledge but struggle with organizing your code, <strong>I recommend you to go and read the <a href="http://getbem.com/" target="_blank">BEM docs</a> and start implementing it.</strong></p>
 
 <p>Remember you can do small modifications to the rules as you see fit, however you should stick to the standard until you master BEM.</p>
 
