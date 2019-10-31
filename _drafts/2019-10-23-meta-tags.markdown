@@ -1,6 +1,6 @@
 ---
 title: HTML < head > for beginners
-subtitle: This are the tags you are not using!
+subtitle: And the social tags you are not using!
 date: 2019-10-23
 category: HTML/CSS
 layout: postwip
@@ -57,7 +57,7 @@ Definetly mandatory in this day and age.
 
 `X-UA-Compatible` This one is kind of optional, however it tells IE how to handle your content, not as important as the others, but nevertheless useful... maybe.
 
-You usually want to set it to `ie=edge` It means that IE will try to use the newer technologies. To be honest, I don't see any reason to support IE anymore, but companies do, so you might want to read a little bit more about it.
+You usually want to set it to `ie=edge` It means that IE will try to use the newer technologies. *To be honest, I don't see any reason to support IE anymore, but companies do,* so you might want to read a little bit more about it.
 
 {% highlight html %}
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -101,24 +101,99 @@ Just remember: you will need your `favicon.ico` file at the root folder of your 
 
 This is used to construct your facebook cards **(many sites use this!)** this cards are shown when you paste your link on social media and displays an image some description, title, etc..., **This works on chats, instagram, even slack and discord!**
 
-The following are **tags I use to make my blog posts social friendly**  you can read more about it on the Open graph protocol documentation.
+The following are **tags I use to make my blog posts social friendly**  you can read more about it on the [Open graph protocol documentation.][og]
 
-og:title
+`og:title` Similar to our title tag this one will be the title displayed on your card when you share your link.
 
-og:image
+{% highlight html %}
+  <meta property="og:title" content="Title Here" />
+{% endhighlight %}
 
-og:description
+`og:image` The image to display in your card, it can actually be any image in your page's folder structure.
 
-og:site_name
+{% highlight html %}
+  <meta property="og:image" content="http://example.com/image.jpg" />
+{% endhighlight %}
 
-og:locale
+`og:description` If you want to give a description to your card _(different than the default one)_ you can write it here.
+
+{% highlight html %}
+  <meta property="og:description" content="Description Here" /> 
+{% endhighlight %}
+
+
+### What about Twitter?
+
+**Twitter has its own protocol for it's cards,** you can check all of them in the [documentation.][tc] This are the ones I use:
+
+`twitter:card` this is going to define what kind of twitter card will be displayed, I usually use "summary" type.
+
+{% highlight html %}
+  <meta name="twitter:card" content="summary">
+{% endhighlight %}
+
+`twitter:title` works pretty much the same as `og:title` and remember the values can be different from one to the other.
+
+{% highlight html %}
+  <meta name="twitter:title" content="Page Title">
+{% endhighlight %}
+
+`twitter:description` same as `og:description` however, **this tag content has to be less than 200 characters long.**
+
+{% highlight html %}
+  <meta name="twitter:description" content="Page description">
+{% endhighlight %}
+
+`twitter:image` again this one has some requirements different from its open graph counterpart. **This image need to be at least 120 x 120 pixels in order to work.**
+
+{% highlight html %}
+  <meta name="twitter:image" content="http://www.example.com/image.jpg">
+{% endhighlight %}
+
+My final HTML `<head>` tag template looks something like this: 
+
+{% highlight html %}
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Imports -->
+    <link rel="stylesheet" href="style.css">
+    <link rel='icon' href='/favicon.ico' type='image/x-icon'/>
+    <script src="./main.js" defer></script>
+    <!-- Open Graph card -->
+    <meta property="og:title" content="Title Here" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+    <meta property="og:description" content="Description Here" /> 
+    <!-- Twitter card-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Page Title">
+    <meta name="twitter:description" content="Page description">
+    <meta name="twitter:image" content="http://www.example.com/image.jpg">
+  </head>
+{% endhighlight %}
+
+
+### The result:
+
+With this information you can change this:
+
+
+Into this: 
+
+
+
+Now you know how to make your pages social friendly. *Just keep in mind there are other tags that I don't generally use.* All of them can be found in the respective documentation for [open graph][og] and [twitter cards][tc], remember to visit them in order to be up-to-date with any changes.
+
+Happy coding!
 
 
 
 ![meme][img1]{:class="postImageGeneral"}
 
 
-
+[tc]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards
 [che]:https://en.wikipedia.org/wiki/Character_encoding
 [defer]:https://www.w3schools.com/tags/tag_script.asp
 [xua]:https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do
