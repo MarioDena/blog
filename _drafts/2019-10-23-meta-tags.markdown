@@ -17,7 +17,7 @@ When you start to get your feet wet in the Web-Development world, you are prone 
 
 What is worse, you can **create the habit of forgeting about filling it all together** besides the most basic tags. _I'm looking at you HTML snippets_.
 
-This can be detrimental because really useful stuff happends in your `<head>` _pun intended_.
+This can be detrimental because really useful stuff happends in your `<head>` _pun intended_...
 
 ## The basics
 
