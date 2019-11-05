@@ -9,9 +9,10 @@ imgLink: /blog/img/oct-2019/memeHEAD.jpg
 comments: true
 permalink: "html-css/about-head-tags.html"
 identifier: metatags01
+imgcard: https://mariodena.github.io/blog/img/oct-2019/memeHEAD.jpg
 ---
 
-Have you tried to **share a link of your web on social media** but your link display has no image or the description is not what you want? Fear no more! We will review some of the most important tags to make your website, _social media friendly_ and some other cool stuff.
+Have you tried to **share a link of your web-page on social media** but your link display has no image or the description is not what you want? Fear no more! We will review some of the most important tags to make your website, _social media friendly_ and some other cool stuff.
 
 When you start off as a Web-Developer, you are prone to skip some basic stuff, like all what is all that content inside your `<head>` tag and what it does. Or what is worse, you can **create the habit of forgetting about filling it all together** besides the most basic tags. _I'm looking at you HTML snippets_.
 

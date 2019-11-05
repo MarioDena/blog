@@ -9,6 +9,7 @@ imgLink: /blog/img/oct-2019/memeBEM2.jpg
 comments: true
 permalink: "/tools/what-is-bem-1.html"
 identifier: whatisbem02
+imgcard: https://mariodena.github.io/blog/img/oct-2019/memeBEM2.jpg
 ---
 
 `BEM` stands for **Block-Element-Modifier** and it's basically a [naming convention][nc]{:target="_blank"} or set of rules you can use to name your `HTML elements` _(with classes)_. Since it's not a framework or a piece of software, you can simply start using it now.
