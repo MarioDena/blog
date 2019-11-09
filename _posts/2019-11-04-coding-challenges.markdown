@@ -22,9 +22,9 @@ This problem is a perfect introduction for me to show you an easy way to think a
 This time I will show you 3 different ways to solve the challenge and we will have a **quick look on some interesting syntax and features from ES6 Javascript**.
 
 Enjoy!
-
+<div class= "iframe-container">
 <iframe width="540" height="315" src="https://www.youtube.com/embed/NSa1-u3On5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</div>
 
 [tw]: https://twitter.com/MarioDenaCode
 [AN]: https://www.hackerrank.com/challenges/angry-professor/problem
