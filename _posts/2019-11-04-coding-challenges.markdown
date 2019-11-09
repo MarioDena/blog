@@ -23,7 +23,7 @@ This time I will show you 3 different ways to solve the challenge and we will ha
 
 Enjoy!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NSa1-u3On5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="540" height="315" src="https://www.youtube.com/embed/NSa1-u3On5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 [tw]: https://twitter.com/MarioDenaCode
