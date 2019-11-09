@@ -171,6 +171,7 @@ figure{
   position: fixed;
   margin-top: -40px;
   margin-left: -40px;
+  z-index: 5;
 
   & > ul{
     display: flex;
