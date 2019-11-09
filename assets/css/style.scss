@@ -15,7 +15,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 2;
 }
 
 .postImage{
@@ -337,7 +337,7 @@ a:focus{
     }
 
     .iframe-container{
-      height: 390px;
+      height: 420px;
     }
 }
 
@@ -347,7 +347,7 @@ a:focus{
   }
 
   .iframe-container{
-    height: 250px;
+    height: 340px;
   }
 }
 
