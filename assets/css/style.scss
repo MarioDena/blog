@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+iframe{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .postImage{
   border: 1px solid lightgray;
   border-radius: 10px;
