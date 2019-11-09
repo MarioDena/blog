@@ -100,7 +100,7 @@ Just remember: you will need your `favicon.ico` file at the root folder of your 
 
 This is used to construct your facebook cards **(many sites use this!)** this cards are shown when you paste your link on social media and displays an image some description, title, etc..., **This works on chats, instagram, even slack and discord!**
 
-The following are **tags I use to make my blog posts social friendly**  you can read more about it on the [Open graph protocol documentation.][og]
+The following are **tags I use to make my blog posts social friendly**  you can read more about it on the [Open graph protocol documentation.][og]{:target="_blank"}
 
 `og:title` Similar to our title tag this one will be the title displayed on your card when you share your link.
 
@@ -123,7 +123,7 @@ The following are **tags I use to make my blog posts social friendly**  you can 
 
 ### What about Twitter?
 
-**Twitter has its own protocol for it's cards,** you can check all of them in the [documentation.][tc] This are the ones I use:
+**Twitter has its own protocol for it's cards,** you can check all of them in the [documentation.][tc]{:target="_blank"} This are the ones I use:
 
 `twitter:card` this is going to define what kind of twitter card will be displayed, I usually use "summary" type.
 
@@ -184,7 +184,7 @@ Into this:
 
 ![exp2][img2]{:class="postImageGeneral"}
 
-And that's all! *Just keep in mind there are other tags that I don't generally use.* All of them can be found in the respective documentation for [open graph][og] and [twitter cards][tc], remember to visit them in order to be up-to-date with any changes.
+And that's all! *Just keep in mind there are other tags that I don't generally use.* All of them can be found in the respective documentation for [open graph][og]{:target="_blank"} and [twitter cards][tc]{:target="_blank"}, remember to visit them in order to be up-to-date with any changes.
 
 Happy coding!
 
