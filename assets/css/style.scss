@@ -335,11 +335,19 @@ a:focus{
       width: 100%;
       border: none;
     }
+
+    .iframe-container{
+      height: 390px;
+    }
 }
 
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
+  }
+
+  .iframe-container{
+    height: 250px;
   }
 }
 
@@ -350,5 +358,9 @@ a:focus{
 
   postheader{
     display: none;
+  }
+
+  .iframe-container{
+    height: 190px;
   }
 }
