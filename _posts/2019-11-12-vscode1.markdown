@@ -1,0 +1,106 @@
+---
+title: 6 Great VS-Code Extensions
+subtitle: That will help you to speed up your game!
+date: 2019-11-12
+category: Tools
+layout: post
+tags: CSS Tools HTML Javascript
+imgLink: /blog/img/nov-2019/setup1.jpg
+comments: true
+permalink: "/tools/vscodeext1.html"
+identifier: envsetup01
+imgcard: https://mariodena.github.io/blog/img/nov-2019/setup1.jpg
+---
+
+VS-code is _(for me)_ the best text editor out there. Immediately after installing it I knew why it is so popular, it's light, customizable and you can transform it into an IDE if you want to.
+
+Ever since I started my career as a developer _(not web-developer at first)_ I have tried different IDE's and text editors. I first started using mono when working with C# then eclipse for Java, finally I switched to web-development, and tried some other text editors like brackets, sublime and atom. But, I think **VS-Code has several advantages over other text-editors** for example the **integrated terminal,** it's incredible intuitive, has **easy and configurable keyboard short-cuts**, and of course, the incredible amount of **extensions** available is just something I can't keep myself away from.
+
+So, If you are looking for some VS-Code extensions to make your life easier this are some of the ones I recommend. _(for web-development)_ .
+
+## Live server
+
+![][img1]{:class="postImageGeneral"}
+
+If you are tired of reloading your web-browser to see your changes applied, this one is for you.
+Not only does the extension host your page, it also **updates it in real time,** so, every time you change a color, a block, or a font, everything will be updated accordingly
+
+I really recommend you to try this one out.
+
+[Get it here!][lk1]
+
+
+## Auto Close Tag
+
+![][img2]{:class="postImageGeneral"}
+
+Ok, so this is a small extension but it really make your life easier when working with code. 
+What it does? Well exactly as the name implies every time you open a tag on your html file, the closing tag will be automatically added. So it will be easier to keep your HTML valid.
+
+[Get it here!][lk2]
+
+
+## Auto Rename Tag
+
+![][img3]{:class="postImageGeneral"}
+
+Just like the small one above, this one allows you to edit your tags more easily. If you start to edit the opening tag the closing tag will be edited at the same time!
+
+[Get it here!][lk3]
+
+
+## Bracket Pair Colorizer
+
+![][img4]{:class="postImageGeneral"}
+
+**This one improves readability for your code** by giving different colors to your brackets, curly braces and parenthesis depending on the level they are nested in. 
+You can configure a list of colors, and also matching characters. It also draws a little line so you can clearly see where all your code is nested.
+
+If you really value readability, then try this one out.
+
+[Get it here!][lk4]
+
+
+## Prettier - Code formatter
+
+![][img5]{:class="postImageGeneral"}
+
+Now for a more robust extension we have prettier code formatter, **this one is one I can't live without.** It just make your code look more organized. You can also configure your code formatter to format on save or with a shortcut.
+
+Also it can be configured to work with your [linter!][lnt]
+
+[Get it here!][lk5]
+
+
+## IntelliSense for CSS & HTML
+
+![][img6]{:class="postImageGeneral"}
+
+If you don't know what [Intellisense][int] is, let's just say it's autocomplete, but I recommend you to read a little bit about it cause it's going to save you a lot of time when coding.
+Sadly VS-Code doesn't have support for Intellisense on CSS and HTML. Well this extension fixes that!
+
+[Get it here!][lk6]
+
+<hr>
+With this six extensions you will have an easier time working on VS-Code. **Of course this ones are just to get you started,** because some others out there are so robust they deserve their own review, but don't worry I'm actually working on doing more in-depth reviews for more extensions. 
+
+What extensions do you use that should have been included?
+
+
+[lnt]: https://prettier.io/docs/en/integrating-with-linters.html
+[int]: https://es.wikipedia.org/wiki/IntelliSense
+
+[lk1]: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+[lk2]: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
+[lk3]: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+[lk4]: https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
+[lk5]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[lk6]: https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion
+
+
+[img6]: /blog/img/nov-2019/vs6.png
+[img5]: /blog/img/nov-2019/vs5.png
+[img4]: /blog/img/nov-2019/vs4.png
+[img3]: /blog/img/nov-2019/vs3.png
+[img2]: /blog/img/nov-2019/vs2.png
+[img1]: /blog/img/nov-2019/vs1.png
